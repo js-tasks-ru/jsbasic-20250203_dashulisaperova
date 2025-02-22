@@ -1,3 +1,8 @@
 function getMinMax(str) {
-  // ваш код...
+  let array = str.split(' ').filter((word) => Number(word))
+    .map((elem) => Number(elem));
+  return result = {
+    min: Math. min(...array),
+    max: Math.max(...array)
+  };
 }
